@@ -12,7 +12,6 @@ int main() {
 
     int count = 0;
     
-    // Перевірка всіх можливих значень m
     for (int m = 1; m < n; m++) {
         if ((n / m) == (n % m)) {
             count++;
