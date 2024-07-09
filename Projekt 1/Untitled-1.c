@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 double time_to_eat_cake(int t1, int t2, int t3) {
     // Обчислюємо швидкість поїдання пирога кожним гостем
     double rate1 = 1.0 / t1;
